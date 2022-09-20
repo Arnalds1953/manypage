@@ -3,3 +3,5 @@ numpy
 streamlit
 plotly
 openpyxl
+gspread
+pandas_bokeh
