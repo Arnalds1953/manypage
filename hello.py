@@ -10,7 +10,7 @@ import plotly.express as px
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-上传后台导出的Kadehom店铺数据（用于云端）
+# 上传后台导出的Kadehom店铺数据（用于云端）
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
     # Can be used wherever a "file-like" object is accepted:
